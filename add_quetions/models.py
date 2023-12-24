@@ -15,4 +15,4 @@ class Questions(models.Model):
     category = models.ForeignKey(Category,on_delete = models.CASCADE, related_name = 'category')
     question = models.JSONField()
     answer = models.CharField(max_length = 50)
-    score = models.ForeignKey(Score, on_delete = models.CASCADE, related_name = 'score')
+    score = models.ForeignKey(Score, on_delete = models.CASCADE, related_name = 'questions_score',null = True)
