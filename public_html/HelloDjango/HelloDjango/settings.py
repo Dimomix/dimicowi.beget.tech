@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-3(dg$2z2)@a3-8tx9#%#i#93j+*@(nr)-p(q3%$*9tp8gk3m!(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dimicowi.beget.tech']
+ALLOWED_HOSTS = ['dimicowi.beget.tech','*']
 
 
 # Application definition
